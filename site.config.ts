@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Jiaxiang Sun',
 
   // open graph metadata (optional)
-  description: 'Jiaxiang Sun's Academic Page',
+  description: 'Jiaxiang Sun\'s Academic Page',
 
   // social usernames (optional)
   twitter: 'huisui773',
