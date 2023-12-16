@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'Jiaxiang Sun\'s Academic Page',
 
   // social usernames (optional)
-  twitter: 'huisui773',
-  github: 'huisui773',
+  // twitter: 'huisui773',
+  // github: 'huisui773',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
