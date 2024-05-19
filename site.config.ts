@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '307c59ae4b82454faf5c7bf8f5cc291f',
+  rootNotionPageId: '8cfcd636457e461281ff7d59540af1f1',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Jiaxiang Sun',
-  domain: 'https://hssh.notion.site/hssh/Jiaxiang-Sun-Kyle-Suen-307c59ae4b82454faf5c7bf8f5cc291f',
-  author: 'Jiaxiang Sun',
+  name: '绘素的主页',
+  domain: 'https://hssh.notion.site/8cfcd636457e461281ff7d59540af1f1',
+  author: '绘素',
 
   // open graph metadata (optional)
-  description: 'Jiaxiang Sun\'s Academic Page',
+  description: '绘素的主页',
 
   // social usernames (optional)
   // twitter: 'huisui773',
@@ -41,28 +41,28 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/notes': 'fedae8b128a447f993dfce6db9642e72',
+    '/blog': '71dfa4d6c9814ce3963398a5b36a5104'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '307c59ae4b82454faf5c7bf8f5cc291f'
-  //   },
-  //   {
-  //     title: 'Notes',
-  //     pageId: '1b847722adeb41efa942b35d08fcd524'
-  //   },
-  //   {
-  //     title: 'Blog',
-  //     pageId: 'd799df365d68473c8f4c32adacb71d5b'
-  //   },
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '8cfcd636457e461281ff7d59540af1f1'
+    },
+    {
+      title: 'Notes',
+      pageId: 'fedae8b128a447f993dfce6db9642e72'
+    },
+    {
+      title: 'Blog',
+      pageId: '71dfa4d6c9814ce3963398a5b36a5104'
+    },
+  ]
 })
